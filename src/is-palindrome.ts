@@ -6,7 +6,6 @@ function isPalindrome(s: string): boolean {
    if (s.length === 0) return true;
 
    while (i < j) {
-      console.log(s[i], s[j]);
       if (s[i] !== s[j]) {
          return false;
       }
