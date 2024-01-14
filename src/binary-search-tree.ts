@@ -104,6 +104,7 @@ deepBothInvalidBST.insert(22);
 deepBothInvalidBST.insert(26);
 deepBothInvalidBST.insert(32);
 
+// Modify the tree to make it invalid on both sides
 deepBothInvalidBST.root!.left!.right!.right!.value = 11;
 deepBothInvalidBST.root!.right!.left!.left!.value = 28;
 
@@ -127,3 +128,5 @@ const isBST = (bst: BST<number>) => {
 
    return helper(bst.root, Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY);
 };
+
+console.log(isBST(invalidBST));
