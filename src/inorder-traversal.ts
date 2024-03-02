@@ -14,6 +14,8 @@ class TreeNode {
  * @url https://leetcode.com/problems/binary-tree-inorder-traversal
  * @param root
  * @returns
+ * @time-complexity O(n)
+ * @space-complexity O(n)
  */
 function inorderTraversal(root: TreeNode | null): number[] {
    const result: number[] = [];
