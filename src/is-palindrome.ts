@@ -16,5 +16,3 @@ function isPalindrome(s: string): boolean {
 
    return true;
 }
-
-console.log(isPalindrome('race a car'));

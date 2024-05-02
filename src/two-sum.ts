@@ -11,10 +11,3 @@ function twoSum(nums: number[], target: number): number[] {
 
    return [];
 }
-
-console.log(twoSum([2, 7, 11, 15], 9));
-
-// map : {} -> {7:0}
-// [2,7,11,15] - 9
-// i = 0 , map -> {7:0}
-// i = 1, [0,1]
