@@ -22,4 +22,4 @@ function findMaxK(nums: number[]): number {
    return max === Number.MIN_SAFE_INTEGER ? -1 : max;
 }
 
-console.log(findMaxK([-10, 8, 6, 7, -2, -3]));
+console.log(findMaxK([-7, 8, 6, 7, -2, -3]));

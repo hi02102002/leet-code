@@ -8,3 +8,5 @@ function buyChoco(prices: number[], money: number): number {
 
    return money - sum;
 }
+
+console.log(buyChoco([1, 2, 2], 3));

@@ -20,7 +20,6 @@ function numIdenticalPairs2(nums: number[]): number {
    nums.forEach((num) => {
       if (map[num]) {
          result += map[num];
-         map[num]++;
       } else {
          map[num] = 1;
       }

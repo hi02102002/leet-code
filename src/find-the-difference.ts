@@ -18,3 +18,5 @@ function findTheDifference(s: string, t: string): string | void {
       }
    }
 }
+
+console.log(findTheDifference('abcd', 'abcde'));

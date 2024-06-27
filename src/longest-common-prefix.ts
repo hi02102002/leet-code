@@ -14,4 +14,4 @@ function longestCommonPrefix(strs: string[]): string {
 
    return prefix;
 }
-longestCommonPrefix(['flower', 'flow', 'flight']);
+console.log(longestCommonPrefix(['flower', 'flow', 'flight']));

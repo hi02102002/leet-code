@@ -45,4 +45,4 @@ list2.next = list3;
 
 deleteDuplicates(list);
 
-console.log(list.next);
+console.log(list);
